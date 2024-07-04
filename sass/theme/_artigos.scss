@@ -1,0 +1,26 @@
+.artigos-lindos{
+    float: left;
+    
+    a:hover{
+        font-weight: 500!important;
+        text-decoration: none !important;
+        color: $gold !important;
+    }
+}
+.cta-le{
+        float: left;
+        a:hover{
+            text-decoration: none !important;
+        }
+}
+.seta-linda{
+    font-size: 25px; 
+    padding-left: 10px; 
+    color:$black;  
+}
+
+@media (min-width: 576px) { 
+    .artigos-lindos{
+        float: right;
+    }
+ } 

@@ -1,0 +1,80 @@
+.btnUnderline{
+    li 
+    .active{
+        background-color: white;
+        border-bottom-color: $gold !important; 
+        color: $gold !important;
+       }
+
+    a {
+    border: 0px solid transparent !important;
+    border-bottom: 2px solid #cfd3d7  !important;
+    background-color: #fff !important;
+    color: #cfd3d7;
+    border-radius: 0 !important; 
+    &:hover {
+        background-color: white;
+        border-bottom-color: $gold !important;
+        }
+       
+    
+    }
+ 
+}
+@media screen and (max-width: 376px) {
+    .btnUnderline{
+        li {
+                max-width:33.3% !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            a{
+                font-size:13px;
+                padding: 0.5rem 0.6rem !important;
+            }
+        }
+    }
+}
+@media screen and (max-width: 778px) and (min-width:376px){
+    .btnUnderline{
+        li {
+                max-width:auto !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            a{
+                font-size:13px;
+                padding: 0.5rem 0.5rem;
+            }
+        }
+    }
+}
+
+
+.contactUnderline{
+    li 
+    .active{
+        background-color: white;
+        border-bottom: 2px solid $gold  !important;
+        color: $gold !important;
+       }
+
+    a {
+    border: 0px solid transparent !important;
+    //border-bottom: 2px solid #cfd3d7  !important;
+    background-color: #fff !important;
+    color: #cfd3d7;
+    border-radius: 0 !important; 
+    &:hover {
+        background-color: white;
+        border-bottom-color: $gold !important;
+        }
+       
+    
+    }
+ 
+}

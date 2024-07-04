@@ -1,0 +1,113 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+body {
+	line-height: 1.6;
+	font-size: 16px;
+	font-weight: 400;
+	color: $black;
+	font-family: 'Open Sans', sans-serif;
+}
+.container-xxl {
+	max-width: 1254px;
+}
+
+.padding-call {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.padding-call-cr {
+	padding-right: 12px;
+	padding-left: 12px;
+}
+
+.teamProfile {
+	h1 {
+		font-size: 52px;
+		font-weight: 600;
+		line-height: 103%;
+	}
+}
+
+.link-contagio {
+	color: #004a95 !important;
+	font-weight: 600 !important;
+	text-decoration: none !important;
+}
+.link-contagio:hover {
+	color: #410000 !important;
+	text-decoration: none !important;
+}
+
+.team-fake-slick {
+	flex-wrap: nowrap;
+}
+
+// media queries Gutemburg
+
+@media (min-width: 600px) and (max-width: 781px) {
+	.wp-block-column:not(:only-child) {
+		/* flex-basis: calc(50% - 1em)!important; */
+		/* flex-grow: 0; */
+		flex-basis: 100% !important;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 781px) {
+	.wp-block-column:nth-child(2n) {
+		//margin-left: 0px !important;
+	}
+	.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column:not(:only-child){
+		flex-basis: calc(100% - var(--wp--style--block-gap, 2em)/2)!important;
+	}
+}
+
+
+.mt-top {
+	margin-top: 2rem !important;
+}
+
+@media (min-width:782px){
+	.mt-top {
+		margin-top: 5rem !important;
+	}	
+}
+
+//shotcode ICONS
+@media (max-width:767px) {
+	.margem-negativa-icons{
+		
+		margin-top: 10px !important;
+	}
+}
+.margem-negativa-icons{
+	margin-top: -30px;
+}
+
+@media (max-width:767px) {
+	.mobile-icons-socials{
+		display: block;
+	}	
+}
+@media (min-width:768px) {
+	.mobile-icons-socials{
+		display: none !important;
+	}	
+}
+@media (max-width:767px) {
+	.mobile-icons-socials-bot{
+		display: none;
+	}	
+}
+@media (min-width:768px) {
+	.mobile-icons-socials-bot{
+		display: block !important;
+	}	
+}
+
+
+
+//css FAQS
+
+.titulos-faqs{
+	color:$black;
+	font-weight: 600;
+}

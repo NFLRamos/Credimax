@@ -1,0 +1,87 @@
+.tema-card{
+    justify-content: space-around;
+
+    .d-nada{
+        display: none;
+    }
+
+    @media (min-width:400px) {
+
+        .d-nada{
+        display: block;
+    }
+    }
+
+}
+
+
+//Archive
+
+.tema-equipa{
+    .btn-outline-dark:hover{
+		background-color: $black;
+		color: white;
+	}
+	.btn-outline-dark:active{
+		background-color: $black !important;
+		color: white !important;
+	}
+}
+
+.formata-img{
+	width:130px; 
+	height:100%;
+	background: #eee;
+}
+
+.tamanho-card{
+	width:650px; 
+}
+
+.t-fonte1{
+	font-size:12px !important;
+}
+.t-fonte-mail{
+	font-size:10px !important;
+}
+.h-font1{
+	font-size:14px;
+	font-weight: bold;
+}
+.padding-card{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+@media (min-width:576px){
+	.text-direita{
+		text-align: right;	
+	}
+	.padding-card{
+		padding-top:30px;
+		padding-bottom:30px;
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+}
+
+@media (min-width:768px){
+	.formata-img{
+		width:165px; 
+		background-color: #eee;
+	}
+	
+	.t-fonte1{
+		font-size:16px !important;
+	}
+	.t-fonte-mail{
+		font-size:15px !important;
+	}
+	.h-font1{
+		font-size:20px;
+		font-weight: bold;
+	}
+}

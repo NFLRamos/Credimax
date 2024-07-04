@@ -1,0 +1,133 @@
+.tema-modal {
+	.modal-dialog {
+		max-width: 1400px !important;
+		text-align: -webkit-center;
+	}
+	@media (max-width: 1380px) { 
+		.modal-dialog {
+			height: 500px !important;
+			text-align: -webkit-center;
+		}
+	 }
+
+	.card-icon-modal {
+		height: 70px;
+		margin-top: 20px;
+	}
+
+	.titulo-modal {
+		text-align: center;
+		color: $black;
+		font-weight: 700;
+	}
+
+	.texto-modal {
+		color: $black;
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 400;
+		padding-bottom: 10px;
+	}
+
+	.coluna-login {
+		background-color: white;
+		border-radius: 5px;
+		margin-bottom: 39px;
+		padding-top: 100px;
+		padding-left: 15px;
+		padding-right: 15px;
+
+		a{
+			color:$black !important;
+		}
+		a:hover{
+			color: $black!important;
+			text-decoration: none !important;
+		}
+	}
+	.coluna-login-form {	
+			background-color: white !important;
+			border-radius: 5px !important;
+			margin-bottom: 39px !important;
+			padding-top: 100px !important;
+			padding-left: 15px !important;
+			padding-right: 15px !important;		
+	}
+	.btn-primary {
+		background-color: $black!important;
+		border-color: $black!important;
+		margin: 10px;
+		padding: 10px;
+	}
+	.btn-primary:hover{
+		background-color: #343a40!important;
+		border-color: #343a40!important;
+	}
+	a{
+		color:$red !important;
+		font-weight: 500 !important;
+	}
+	a:hover{
+		color: $red !important;
+		font-weight: 500 !important;
+	}
+	.col-lg-8{
+		margin-right: -25px !important;
+	}
+	.fas{
+	font-size: 50px;
+    color: $gold;
+	}
+	.btn-light{
+		color:$black !important;
+	}
+	.btn-light:hover{
+		color:$black !important;
+		font-weight: 400 !important;
+	}
+
+	.modal-form{
+		width: 100%;
+		border: 1px solid $black;
+		border-radius: 5px; 
+		height: 40px;
+	}
+	.modal-form-text{
+		font-size:16px;
+		font-weight: 600;
+    	float: left;
+    	padding-left: 10px;
+	}
+
+	.gform_wrapper.gravity-theme *{
+		text-align: left !important;
+	}
+	.gform_wrapper.gravity-theme .gform_footer input{
+		text-align: center !important;
+	}
+
+	.seta-left{
+		font-size: 16px !important;
+    padding-top: 10px !important;
+    color: #212529 !important;
+	}
+    
+}
+#exampleModal .modal-dialog {
+    -webkit-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    top: 55%;
+    margin: 0 auto;
+}
+
+.col-bye-bye{
+    display: none;
+}
+@media (min-width: 981px) { 
+    .col-bye-bye{
+        display: revert;
+    }
+ }
+
+

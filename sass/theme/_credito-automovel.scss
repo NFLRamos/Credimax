@@ -1,0 +1,255 @@
+.titulo-img-azul {
+	line-height: 1.2;
+}
+.texto-img-azul {
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+.botao-img-azul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.bg-azul-automovel {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.bg-azul-automovel-right{
+	padding-top:30px;
+}
+
+//credito pessoal
+.bg-azul-pessoal-left {
+	padding-top: 30px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.bg-azul-pessoal-right{
+	padding-top:30px;
+}
+
+.texto-faq {
+	flex-direction: row;
+	display: flex;
+	font-size: 18px;
+	color: $black;
+	line-height: 1.4;
+	margin-left: 20px;
+	font-weight: 600;
+}
+
+.design-faq {
+	flex-direction: row;
+	display: flex;
+	width: 90%;
+	align-items: center;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: $gold;
+	border-right-color: $gold;
+	border-bottom-color: $gold;
+	border-left-color: $gold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.pseudo-h3 {
+	font-size: 1.17em !important;
+	font-weight: bolder;
+}
+
+.pseudo-h4 {
+	font-size: 1em;
+	font-weight: bolder;
+}
+
+.classe-botaoz {
+	background-color: white;
+	border: 1px solid #e3e3e3;
+	height: 82px;
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+	color: $black;
+	display: flex;
+	margin-top: 10px;
+}
+.classe-botaoz:hover {
+	color:$black;
+	cursor: pointer;
+}
+
+.texto-botaoz {
+	font-size: 16px;
+	font-weight: bolder;
+	text-align-last: center;
+	margin-top: 5px;
+	padding-left: 40px;
+	
+}
+.texto-botaoz-long {
+	font-size: 16px;
+	font-weight: bolder;
+	text-align-last: center;
+	margin-top: 5px;
+	padding-left: 40px;
+	line-height: 15px;
+	
+}
+
+.icon-botaoz {
+	font-size: 26px;
+	margin-top: 10px;
+	padding-left: 15px;
+	
+}
+
+.dis-wra {
+	flex-wrap: wrap !important;
+}
+
+.wp-block-button__link:hover{
+	background-color: #ffc559 !important;
+	text-decoration: none !important;
+}	
+
+
+
+.red-hover{
+	.wp-block-button__link:hover {
+		background-color: $red_hover!important;
+		text-decoration: none!important;
+	}
+}
+
+.renting-campa{
+	margin-top: 1px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+}
+.renting-campa-img{
+	margin-top: 1px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: none;
+}
+
+@media (min-width: 900px){
+    .renting-campa{
+        margin-top: -200px;
+    }
+	
+}
+@media (min-width:1200px){
+	.renting-campa-img{
+		display: block;
+        margin-top: -150px;
+		height:700px;
+		border-radius: 5px !important;
+    }
+	.borda{
+		.wp-block-cover img.wp-block-cover__image-background{
+			border-radius: 5px !important;
+		}	}
+}
+
+//renting
+
+.seta-dir-branca{
+	background: url('../assets/right.png');
+	padding-left: 32px;
+    margin-left: 1rem;
+	background-repeat: no-repeat;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 780px) {
+	.classe-botaoz {
+		background-color: white;
+		border: 1px solid #DBDBDB;
+		height: 130px;
+		border-radius: 5px;
+		text-align: center;
+		padding: 20px;
+		color: $black;
+		margin-top: revert;
+		display: revert;
+
+		.fa, .fas{
+			color:#000000bf;
+		}
+		.fa, .far{
+			color: #000000bf;
+			
+		}
+	}
+	.classe-botaoz:hover {
+		color: $gold !important;
+		cursor: pointer;
+		margin-top: -15px;
+		transition: 0.4s;
+		box-shadow: 0 3px 6px #00000029;
+		.fa, .fas{
+			color: $gold !important;
+			margin-top:revert;
+		}
+		.fa, .far{
+			color: $gold !important;
+			margin-top:revert;
+		}
+	}
+	
+
+	.texto-botaoz {
+		font-size: 16px;
+		font-weight: bolder;
+		text-align-last: center;
+		margin-top: 5px;
+		padding-left: revert;
+	}
+	.texto-botaoz-long {
+		font-size: 16px;
+		font-weight: bolder;
+		text-align-last: center;
+		margin-top: 5px;
+		padding-left: revert;
+		line-height: 15px;
+	}
+
+	.icon-botaoz {
+		font-size: 26px;
+		margin-top: 10px;
+		padding-left: revert;
+	}
+
+	.dis-wra {
+		flex-wrap: wrap !important;
+	}
+}
+
+
+
+// Large devices (desktops, 992px and up)
+//@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+//@media (min-width: 1200px) { ... }

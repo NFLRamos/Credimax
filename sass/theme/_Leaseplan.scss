@@ -1,0 +1,48 @@
+.leaseplan{
+    .headerPages-lease {
+        padding-top: 100px;
+        background-size: auto, contain;
+        background-color: $gold;
+        background-repeat: no-repeat;
+        background-position: 100% 20%;
+        padding-bottom: 50px;
+        min-height: 320px;
+    
+        .upTitle {
+            color: #fbfbfb;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .h1,
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 52px;
+            font-weight: 600;
+            line-height: 103%;
+            color: #fbfbfb;
+        }
+    }
+    
+    .btn-laranja{
+        background-color: $red;
+        border: 1px solid $red;
+        color:white;
+        border-radius:5px;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+       
+    }
+    .btn-laranja:hover{
+        background-color: $red_hover ;
+        border: 1px solid $red_hover ;
+    }
+    a, a:hover{
+        text-decoration: none !important;
+        color:white;
+    }
+}
+

@@ -1,0 +1,77 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+
+$primary: #1eb1e7 ; // Thats a sample how you could change a BootStrap variable.
+
+$red: #A50F0F;   //cor vermelha 
+$red_hover: #d82121; // cor vermelha p/ hover
+
+$black: #131413; //tema
+
+
+$gold: #d7b04a; //tema 2
+$gold_hover: #ffc559; // cor gold p/ hover
+
+
+//scroll bar
+
+/* ===== Scrollbar CSS ===== */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d7b04a #131413;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 13px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #131413;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d7b04a;
+    border-radius: 5px;
+    border: 2px solid #131413;
+  }
+
+
+  //butao top scroll mobile
+
+@media (max-width:576px) {
+  .top-btn{
+    z-index: 9;
+  display: block;
+  border: unset;
+  background-color: unset;
+  //all: unset; 
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  transform:scale(1.8);
+  //opacity: 0;
+  transition: .3s;
+    .las{
+      display: block;
+      color: white; 
+      background-color: #d7b04a; 
+      border-radius: 50%;
+    }
+
+  }
+}
+@media (min-width:577px) {
+  .top-btn{
+    display: none;
+    .las{
+      display: none;
+    }
+  }
+
+  
+}
+  

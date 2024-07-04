@@ -1,0 +1,230 @@
+.ctaForms{
+    img{
+        width:70px;
+        height: auto;
+        margin-top: -8rem;
+    }
+    h2{
+        color: #fbfbfb;
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-top: 26px;
+        font-size:36px;
+        line-height: 103%
+    }
+    p{
+        color: #fbfbfb;
+        font-size:22px;
+
+    }
+    .gform-body {
+        text-align: left;
+        background: none;
+    }
+    
+   .gform_footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+    }
+    
+    input.gform_button  {
+        border: none;
+        height: 46px;
+        border-radius: 5px;
+        padding: 15px 32px;
+        color: $black;
+        font-weight: 500;
+        line-height: 18.4px;
+        background-color: $gold;
+    }
+    .gchoice label{
+        text-transform: unset;
+    }	
+    .gfield_required.gfield_required_text {
+        color: $gold !important;
+    }
+   label {
+       text-transform: uppercase;
+       font-size: 12px !important;
+        font-weight: 600 !important;
+
+        color: #fbfbfb;
+    }
+    
+  .ginput_container input,
+  .ginput_container select {
+        border: 1px solid #fbfbfb;
+        background-color: #fbfbfb;
+        padding: 20px;
+        border-radius: 5px;
+        color: $black;
+    }
+    
+    .ginput_container input::placeholder {
+        color: rgba(31, 31, 31, 0.6);
+    }
+}
+
+//NL
+.NLform{
+
+    .gform_legacy_markup_wrapper form {
+        text-align: left;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+       
+    form#gform_1 {
+display: flex;
+}
+
+#gform_fields_1 {
+display: flex;
+align-items: center;
+}
+
+input#gform_submit_button_1 {
+border: none;
+height: 46px;
+border-radius: 5px;
+padding: 15px 32px;
+color: $black;
+font-weight: 500;
+line-height: 18.4px;
+background-color: $gold;
+.input#gform_submit_button_1:hover{
+    background-color: $gold_hover !important;
+}
+}
+input#input_1_1{
+height: 46px;
+border-radius: 5px;
+background: transparent;
+border: 1px solid rgba(251, 251, 251, 0.4);
+padding: 15px 32px;
+line-height: 18.4px;
+color: #fff;
+margin-top: 0;
+background-color: $black;
+}
+select#input_1_3 {
+height: 46px;
+border-radius: 5px;
+background: transparent;
+border: 1px solid rgba(251, 251, 251, 0.4);
+padding-left: 32px;
+line-height: 18.4px;
+color: #fff;
+margin-top: 0;
+background-color: #131413;
+option {
+    color: #444;
+    border-color: #444 ;
+}
+}
+li#field_1_1 {
+width: 100%;
+}
+li#field_1_3 {
+width: 50%;
+}
+input#input_1_1::placeholder,
+select#input_1_3::placeholder {
+color: rgba(251, 251, 251, 0.4);
+}
+
+.gform_legacy_markup_wrapper .gform_footer{
+margin: 8px 0 0 0;
+width: auto;
+}
+
+.gform_legacy_markup_wrapper h3{
+    font-size: 34px !important;
+}
+
+
+@media only screen and (max-width:768px){
+form#gform_1 {
+display: block !important;
+}
+#gform_fields_1 {
+display: block;
+align-items: center;
+}
+li#field_1_1 {
+width: 100%;
+}
+li#field_1_3 {
+width: 100%;
+}
+}
+}
+
+
+//cartao credito
+
+.gform_wrapper.gravity-theme .gform_footer input{
+    margin-bottom: 8px;
+    background-color: $gold;
+    border: 1px solid $gold;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.gform_wrapper.gravity-theme .gform_footer{
+display:flex;
+flex-direction: column;
+}
+
+.form-cartao-credito-teste{
+    padding: 40px;
+    color: white;
+}
+
+.gform_wrapper.gravity-theme .gfield input.large, .gform_wrapper.gravity-theme .gfield select.large{
+    border: 1px solid grey;
+    border-radius:5px;
+}
+.gform_wrapper.gravity-theme .gfield textarea.large{
+    border: 1px solid grey;
+    border-radius:5px;
+    height:200px;
+}
+
+.gform_legacy_markup_wrapper textarea.large{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.gform_legacy_markup_wrapper .gform_footer input.button, .gform_legacy_markup_wrapper .gform_footer input[type=submit]{
+    background-color: $gold;
+    border: 1px solid $gold;
+    border-radius: 5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight: 500;
+}
+.gform_legacy_markup_wrapper .gform_footer{
+   display: flex !important;
+   flex-direction: column !important;
+}
+
+
+
+// Gravity forms
+
+.margem-asteric{
+    margin-top: -25px;
+}
+
+
+.gform_wrapper.gravity-theme .gfield textarea.large{
+    min-height: 200px;
+    max-height: 200px;
+} 
+
+.gform_legacy_markup_wrapper .instruction{
+    display: none !important;
+}

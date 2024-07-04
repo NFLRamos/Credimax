@@ -1,0 +1,89 @@
+
+
+
+.padding-lindo {
+	padding: 50px !important;
+}
+
+.bg-ra-azul {
+	background-image: radial-gradient(circle farthest-side,#131413e0,#131413);
+}
+
+.design-left-simu {
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	//padding-bottom: 20px;
+	border-radius: 6px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: white;
+	border-right-color: white;
+	border-bottom-color: white;
+	border-left-color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.design-left-simu-gold {
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	//padding-bottom: 20px;
+	border-radius: 6px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-color: $gold;
+	border-right-color: $gold;
+	border-bottom-color: $gold;
+	border-left-color: $gold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.margem-simu {
+	margin-top: -28px;
+}
+
+.margem-check-white{
+	margin-bottom: 20px;
+}
+
+
+.sem-checks-resp {
+    display: none !important;
+}
+
+@media (min-width: 782px) {
+	.sem-checks-resp {
+        display: revert !important;
+	}
+}
+
+.gform_legacy_markup_wrapper .top_label .gfield_label, .gform_legacy_markup_wrapper legend.gfield_label{
+	font-size:14px;
+	text-transform: uppercase;
+}
+
+.margem-simulador-2{
+	margin-bottom: 25px;
+}

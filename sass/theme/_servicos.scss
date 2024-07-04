@@ -1,0 +1,285 @@
+.cabecalho-servicos{
+	font-size: 12px; 
+	line-height: 14px; 
+	font-weight: 300; 
+	//opacity: 60% !important;
+}
+.cabecalho-atencao{
+	font-weight: 600; 
+	opacity: 70% !important;
+}
+.cabecalho-texto{
+	opacity: 60% !important;
+}
+
+.mds{
+	a{
+		color: #1eb1e7 !important;
+		text-decoration: none !important;
+	}
+	a:hover{
+		color: #1eb1e7 !important;
+		font-weight: 700 !important;
+	}
+}
+
+.design-credito {
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	//padding-top: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	//padding-bottom: 20px;
+	margin-bottom: -5px;
+}
+
+.texto-left-creditos {
+	flex-direction: row;
+	display: flex;
+	font-size: 15px;
+	color: #004a95;
+	line-height: 1.4;
+	//margin-left: 20px;
+	font-weight: 600;
+	text-decoration: none !important;
+}
+
+.sem-decor {
+	text-decoration: none !important;
+}
+
+.tema-servicos {
+    @media (max-width: 953px) {
+		/*.wp-block-image img {
+            max-width: 50%;
+        }*/
+	}
+
+	@media (max-width: 599px){
+		.img-adeus{
+			display: none;
+		}
+	}
+
+	@media (min-width: 600px) and (max-width: 781px){
+		.wp-block-column:not(:only-child) {
+		flex-basis: calc(100% - 1em)!important; 
+		 flex-grow: 0; 
+		flex-basis: 100% !important;
+	}
+	}
+
+
+
+
+}
+
+
+// Pagina - Ver todos os serviços
+
+/*
+.linha-v {
+	display: block;
+	background: $gold;
+	height: 82px;
+	position: relative;
+	left: 4%;
+	flex-basis: 1px !important;
+}
+.linha-v-last {
+	display: block;
+	background: $gold;
+	height: 41px;
+	position: relative;
+	left: 4%;
+	flex-basis: 1px !important;
+}
+
+.linha-h {
+	display: block;
+	background: $gold;
+	height: 1px;
+	align-self: center;
+	position: relative;
+	right: 4%;
+	flex-basis: 30px !important;
+}
+.linha-h-last {
+	display: block;
+	background: $gold;
+	height: 1px;
+	align-self: center;
+	position: relative;
+	right: 4%;
+	flex-basis: 30px !important;
+}
+
+.icon-centro {
+	margin-left: 10px !important;
+	margin-top: 11px !important;
+}
+
+.mb-blocos {
+	margin-bottom: 0px !important;
+}
+
+.bloco-primeiro {
+	margin-bottom: -24px !important;
+}
+*/
+
+
+
+
+
+
+@media (min-width: 1px) {
+	.linha-v {
+		display: none;
+	
+	}
+	.linha-v-last {
+		display: none;
+		
+	}
+
+	.linha-h {
+		display: none;
+		
+	}
+	.linha-h-last {
+		display: none;
+		
+	}
+
+	.icon-centro {
+		//margin-left: 10px !important;
+		margin-top: 11px !important;
+	}
+
+	.mb-blocos {
+		margin-bottom: 0px !important;
+	}
+
+	.bloco-primeiro {
+		margin-bottom: -24px !important;
+	}
+
+	
+}
+
+@media (max-width:599px){
+	.margem-feliz{
+		margin-left:-65%;
+	}
+}
+
+@media (min-width:600px) and (max-width:779px){
+	.margem-feliz{
+		margin-left:-85% !important;
+	}
+}
+
+@media (max-width:780px){
+	.margem-mobile-sublinks{
+		margin-left:20px;
+	}
+	.col-feliz {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+}
+
+@media (min-width: 1226px) {
+	.linha-v {
+		display: block;
+		background: $gold;
+		align-self: center;
+    	height: 136px;
+		position: relative;
+		left: 4%;
+		flex-basis: 1px !important;
+	}
+	.linha-v-last {
+		display: block;
+		background: $gold;
+		height: 54px;
+		position: relative;
+		left: 4%;
+		flex-basis: 1px !important;
+	}
+}
+	@media (min-width: 1226px) {
+		.linha-v-2 {
+			display: block;
+			background: $gold;
+			height: 107px;
+			position: relative;
+			left: 4%;
+			flex-basis: 1px !important;
+		}
+		.linha-v-last-2 {
+			display: block;
+			background: $gold;
+			height: 54px;
+			position: relative;
+			left: 4%;
+			flex-basis: 1px !important;
+		}
+
+	.linha-h {
+		display: block;
+		background: $gold;
+		height: 1px;
+		align-self: center;
+		position: relative;
+		right: 4%;
+		flex-basis: 30px !important;
+	}
+	.linha-h-last {
+		display: block;
+		background: $gold;
+		height: 1px;
+		align-self: center;
+		position: relative;
+		right: 4%;
+		flex-basis: 30px !important;
+	}
+
+	.icon-centro {
+		margin-left: 10px !important;
+		margin-top: 11px !important;
+	}
+
+	.mb-blocos {
+		margin-bottom: 0px !important;
+	}
+
+	.bloco-primeiro {
+		margin-bottom: -24px !important;
+	}
+	.texto-titulo-ml {
+		margin-left: -20px !important;
+	}
+	.margen-mini-icon{
+		margin-left:-30px;
+	}
+	.margen-mini-texto{
+		margin-right: -30px;
+	}
+
+}
+
+.links-lindos{
+	a{
+		color: $black;
+		text-decoration: none !important;
+	}
+	a:hover{
+		color: $gold;
+		font-weight: 800;
+		text-decoration: none !important;
+	}
+}

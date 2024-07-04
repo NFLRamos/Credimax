@@ -1,0 +1,86 @@
+.tema-faqs {
+
+    .img-linda{
+        min-height: 800px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        max-height: none;
+        -o-object-fit: cover;
+        object-fit: cover;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        max-height: 800px;
+
+        @media screen and (max-width:768px){
+            min-height:auto;
+        }
+    }
+
+
+	.accordion-butao {
+		display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding:15px;
+        border:none;
+        outline:none;
+        cursor:pointer;
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        background-color: white;
+        color:$black;
+        font-weight: 600;
+        text-align: left;
+        transition: 0.2s;
+        margin-bottom: 15px;
+	}
+    .accordion-butao:hover{
+        color:$gold;
+    }
+
+    .accordion-butao::after{
+        content: '+';
+        float:right;
+        transform: scale(1.5);
+        margin-right:5px;
+        margin-left:5px;
+        
+    }
+    .accordion-butao.active::after{
+        content: '-';
+        float:right;
+        transform: scale(1.5);
+        margin-right:5px;
+        margin-left:5px;
+        
+    }
+    
+    .accordion-content{
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.2s;
+        //padding:15px;
+
+    }
+    .btn-link{
+        color: $black;
+        text-decoration: none;
+    }
+    .btn-link:hover{
+        color: $gold;
+        text-decoration: none;
+    }
+    .btn:focus{
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+

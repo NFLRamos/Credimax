@@ -1,0 +1,53 @@
+{
+  "author": "The mxu Authors (https://github.com/mxu/mxu/graphs/contributors)",
+  "bugs": {
+    "url": "https://github.com/mxu/mxu/issues"
+  },
+  "dependencies": {
+  },
+  "description": "WordPress Theme framework",
+  "devDependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/preset-env": "7.16.4",
+    "autoprefixer": "10.4.0",
+    "bootstrap": "5.1.3",
+    "browser-sync": "2.27.7",
+    "del": "6.0.0",
+    "font-awesome": "4.7.0",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-clean-css": "4.3.0",
+    "gulp-concat": "2.6.1",
+    "gulp-imagemin": "8.0.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "9.0.1",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "5.0.0",
+    "gulp-sourcemaps": "3.0.0",
+    "gulp-uglify": "3.0.2",
+    "postcss": "8.3.11",
+    "sass": "1.43.4"
+  },
+  "engines": {
+    "node": "^10 || ^12 || >=14"
+  },
+  "homepage": "https://mxu.com",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "framework",
+    "bootstrap",
+    "underscores"
+  ],
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "name": "mxu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxu/mxu.git"
+  },
+  "scripts": {
+    "postinstall": "gulp copy-assets"
+  },
+  "version": "0.9.6"
+}
